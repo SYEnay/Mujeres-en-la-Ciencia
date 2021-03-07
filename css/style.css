@@ -1,0 +1,133 @@
+/*Mobile first */
+        /*Generales*/
+        *{font-size: 62.5%;margin:0;padding:0;font-family:Arial, 
+            Helvetica, sans-serif;position:relative;
+            box-sizing:border-box;}
+        header{background-image:url(fondos/fondo.jpg);height:30rem;}
+        a{text-decoration:none;font-size:2rem;width:100%;display:block;}
+        h1{width:70%;font-size:4rem;margin-top:4rem;}
+        h2{font-size:2.5rem;}
+        h3{font-size:2.5rem;}
+        h4{font-size:2rem;height:3rem;width:100%;}
+        h5{font-size:1.5rem;}
+        img{width:100%;height:100%;}
+        i{font-size:3rem; width:100%;}
+        p{text-align:justify;font-size:1.8rem;}
+        footer{height:6rem;background:#041136;}
+        /*Estilos generales CAJAS*/
+        .c{text-align:center;justify-content:center;}
+        .grosor{font-weight:bold;}
+        .auto{margin:auto;}
+        .flex{display:flex;}
+        .bk{display: block;}
+        .t{font-family: 'RocknRoll One', sans-serif;}
+        /*TAMAÑO DE CAJAS, LOGO Y REDES SOCIALES*/
+        .carousel{height:25rem;overflow:hidden;width:100%;}
+        .medium{height:20rem;}
+        .redes{display:flex;}
+    /*MENU PRINCIPAL*/
+        .margen,.logo{width:95%;padding:0.5rem;}
+        .logo{width:9rem;}
+        .nav{width:90%;height:10rem;display:block;}
+    /*PAPEL DE LA MUJER*/
+        /*Sección Carrusel*/
+        .carrusel{width:100%;}
+        .history,.mujer{width:100%;}
+        .mujer{display: block;}
+        /*Caja de pocionamiento*/
+        .menu{padding-top:1rem}
+        .derecha{height:1rem;text-align:right;}
+        .m{margin-bottom: 1rem;}
+        .novel{display:block; width:100%;height:30rem;}
+        .video{height:30rem;width:100%;}
+        .space{margin-top:1rem;margin-bottom:1rem;}
+        /*especificaciones de enlaces*/
+        .w{color:white;}
+        .sb{color:#041136}
+        .bl{color:#005885}
+        .v{color:#6BFBCE}
+        /*Bordes de enlaces*/
+        .br{border-bottom:0.25rem solid#25ecd3;}
+        .circle:hover{transform:rotate(360deg);transition:4s;}
+        .franja{height:5rem;}
+        .redes a, .redes i{height:7rem;;font-size:6rem;}
+        /*Transiciones*/
+        .time{transition:3s;}
+        a:hover{text-decoration:none;color:#041136;}
+        .wh:hover{color:#041136}
+        .sb:hover{color:white;}
+        .fm:hover h3,.fn:hover h3{background:#041136;}
+        /*Color de fondos*/
+        .bg{background-position:center;background-size:cover;}
+        .bgw{background:white;}
+        .bgsb{background:#041136}
+        .bgbl{background:#005885}
+        .bgv{background:#6BFBCE}
+        /*FONDO DE PANEL PERMIOS NOVEL*/
+        .fm{background-image:url(fondos/novel.jpg);}
+        .fn{background-image:url(fondos/wifi.jpg);}
+        .fm h3,.fn h3{background:#6BFBCE;}
+        .fx{background-attachment: fixed;}
+        /*Img*/
+        .libros{width:60%;height:35rem;margin-bottom:1rem;}
+        /*Páguna Cientifícas*/
+        .card{width:100%;height:70rem;}
+        .card p{width:80%;}
+        .conteiner{height:30rem;}
+
+    @media (min-width:600px){
+        .nav{display:flex;}
+        .nav a{width:50%;display:flex;}
+
+        h1{margin-top:3rem;width: 60%;}
+        h3{height:4rem; width:100%;}
+        p{width:90%;}
+        footer{height:6rem;background:#041136;}
+
+        .carousel{height:34rem;}
+        .novel{display:flex;width:100%;height:32rem;}
+
+        .libros{width:50%;height:40rem;}
+        /*Páguna Cientifícas*/
+        .card{width:70%;height:70rem;}
+    }
+    @media(min-width:800px){
+        .carousel{height:40rem;}
+        .video{height:40rem;}
+        .novel{height:25rem;width:50%;}
+        .novel h3{margin-top:21rem;}
+        .mujer,.l{display:flex;}
+        .libros{height:30rem; width:30%;}
+        /*Páguna Cientifícas*/
+        .mujeres{display: flex;}
+        h4{font-size: 1.5rem;}
+        .card{width:50%;height:70rem;}
+        .card p{width:80%;}
+        .conteiner{height:25rem;}
+    }
+    @media(min-width:900px){
+        .nav a{width:25%;display:flex;}
+        h1{margin-top:5rem;}
+        h3{height:4rem; width:100%;}
+        p{width:90%;}
+        .carrusel,.history,.mujer{width:85%;}
+        .carousel{height:40rem;}
+        .novel{height:30rem;width:50%;}
+        .novel h3{margin-top:26rem;}
+        .libros{height:34rem; width:33%;}
+        .card{width:30%;}
+    }
+    @media(min-width:1100px){
+        header{height:65rem;}
+        h1{font-size:9rem;width:70%;margin-top:10rem;}
+        a{font-size:2rem;}
+        .logo{width:15rem}
+        .menu{width:90%; padding-top:3rem;}
+        .carousel{height:48rem;}
+        .history,.recursos{display: flex;}
+        .libros{height:25rem; width:32%;}
+     }
+    @media(min-width:1300px){
+        .libros{height:35rem;width:33%;margin-top:5rem;margin-bottom:1.5rem;}
+     }
+     
